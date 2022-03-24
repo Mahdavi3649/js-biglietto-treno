@@ -24,12 +24,13 @@ console.log(prezzo_biglietto);
 if (età_passaggero <= 18){
     var calcoloSconto_Under = ((prezzo_biglietto * 20) / 100);
     var biglietto_Under = prezzo_biglietto - calcoloSconto_Under;
-    console.log(biglietto_Under);
+    console.log(biglietto_Under.toFixed(2));
 
 
 // sconto del 40% per gli over 65
 } else if (età_passaggero >= 65){
     var calcoloSconto_Over = ((prezzo_biglietto * 40) / 100);
     var biglietto_Over = prezzo_biglietto - calcoloSconto_Over;
-    console.log(biglietto_Over);
+    console.log(biglietto_Over.toFixed(2));
 }
+

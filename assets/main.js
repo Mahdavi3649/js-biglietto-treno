@@ -32,5 +32,8 @@ if (età_passaggero <= 18){
     var calcoloSconto_Over = ((prezzo_biglietto * 40) / 100);
     var biglietto_Over = prezzo_biglietto - calcoloSconto_Over;
     console.log(biglietto_Over.toFixed(2));
+
+}else{
+    console.log("Nessuno sconto applicabile e Buon viaggio ahahaha");
 }
 
